@@ -1,0 +1,12 @@
+def find_max_if_positive(b, c):
+    a = int(input("Введите число a: "))
+    
+    if a > 0:
+        return max(a, b, c)
+    else:
+        return -1
+
+b = 5
+c = 10
+result = find_max_if_positive(b, c)
+print("Результат:", result)
